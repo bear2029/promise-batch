@@ -1,0 +1,33 @@
+{
+  "name": "promise-batch",
+  "version": "1.0.0",
+  "description": "Batch process of list of promises.",
+  "main": "batch.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "jshint **.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bear2029/promise-batch.git"
+  },
+  "keywords": [
+    "promise",
+    "promise"
+  ],
+  "author": "bear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bear2029/promise-batch/issues"
+  },
+  "homepage": "https://github.com/bear2029/promise-batch#readme",
+  "dependencies": {
+    "promise": "^7.0.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jest": "^0.1.40",
+    "jshint": "^2.8.0"
+  }
+}
